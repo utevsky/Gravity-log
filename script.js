@@ -9,7 +9,7 @@ button.addEventListener("click", function () {
         // Create a download link for the image
         const a = document.createElement("a");
         a.href = imageDataURL;
-        a.preview = "image.png";
+        a.download = "image.png";
         a.click();
 
     });
